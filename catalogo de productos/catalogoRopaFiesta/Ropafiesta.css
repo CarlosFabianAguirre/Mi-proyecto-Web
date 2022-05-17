@@ -1,0 +1,37 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body{background-color: aqua;
+background-image: url("fiesta.jpeg");
+background-size:cover;
+background-repeat: no-repeat;
+}
+h1{font-size: 5rem;
+    text-align: center;
+    }
+    a{ font-size: 2rem;
+    color: black;
+text-decoration: none;
+border-style:double ;
+background-color: burlywood;}
+h2{color: #ffffff;}
+p{color: aquamarine ;}
+
+.catalogofiesta{
+    display:grid;
+    grid-template-columns: repeat(2,1fr) ;
+    padding: 32px;
+    gap: 24px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.vestido-titulo{
+    margin-left: 27%;
+    font-size: 2rem;
+}
+
+.imagen{ width: 80%;
+    height: 80%;}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Model</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="stylo.css">
+</head>
+
+<body>
+
+    <div class="cabecera">
+        <div class="logo">
+            <a href="index.html">
+  <img src="logoizquierdo.png" alt="ir al inicio">              
+            </a>
+        </div>
+
+        <a href="index.html">
+    
+        </a>
+        <h1 class="cabecera-titulo">Diseño Model</h1>
+        <audio src="audio.mp3" controls loop></audio>   
+    </div>  
+    
+        <div class="contenido">
+
+            <nav class="nav">
+                <h2>Catalogo de Productos</h2>
+
+                <form action="buscar.js" class="nav-form">
+                    <!-- Ojo que acá hay un issue de accesibilidad, más adelante vemos cómo arreglarlo -->
+                    <input type="text" placeholder="Buscar en el sitio">
+                    <input type="submit" value="Buscar">
+                </form>
+
+                <input type="button" value="menu" class="boton" id="boton">
+                <ul class="nav-lista" id="nav">
+
+                    <li class="nav-lista_item">
+                    
+                        <a href="catalogo de productos/RopaFiesta.html" class="nav-lista_item-link">
+                         De Fiesta  
+                        </a>
+                    </li>
+                    <li class="nav-lista_item">
+                        <a href="index.html" class="nav-lista_item-link">
+                         Formal
+                        </a>
+                    </li>
+                    <li class="nav-lista_item">
+                        <a href="index.html" class="nav-lista_item-link">
+                         Ropa Interior
+                        </a>
+                    </li>
+                    <li class="nav-lista_item">
+                        <a href="index.html" class="nav-lista_item-link">
+                        Variedades
+                        </a>
+                    </li>
+                    <li class="nav-lista_item">
+                        <a href="index.html" class="nav-lista_item-link">
+                        Ofertas
+                        </a>
+                    </li>
+                    <li class="nav-lista_item">
+                        <a href="index.html" class="nav-lista_item-link">
+                         Para los mas Peques 
+                        </a>
+                    </li>
+                </ul><!-- Acá cierra .nav-lista -->
+            
+            </nav><!-- Acá cierra .nav -->
+    <div class="historia ">
+        <h3>
+              Diseño Model es un empresa multimarca que trabaja con una Variedad 
+            ilimitada de artistas, diseñadores top de la industria de la moda,
+            la seleccion de lo Mejor en tendencias mundiales para que siempre estes a un solo click de lucir 
+            como una estrella    
+        </h3>
+
+    </div>
+    </div>
+    
+
+
+    <!-- ver la desplegacion del menu hamburguesa -->
+    <div class="botonerafinal">
+        <nav class="piefinal">
+
+       <!-- <     <form action="buscar.js" class="nav-form"> -->
+                <!-- Ojo que acá hay un issue de accesibilidad, más adelante vemos cómo arreglarlo -->
+             <!-- <   <input type="text" placeholder="ingresa tu mail y recibi las ofertas"> -->
+            <!-- <    <input type="submit" value="Buscar"> -->
+        <!-- <    </form> -->
+
+            <input type="button" value="menu" class="boton1" id="boton">
+
+
+            <ul class="listafinal"  id="nav">
+                <li class="listafinal_item">
+                
+                    <a href="index.html" class="nav-lista_final-link" class="contacto">
+                      Contacto y sucursales
+                    </a>
+                    
+                    
+
+                </li>
+                <li class="listafinal_item">
+                    <a href="eventos/eventos.html" class="nav-lista_final-link">
+                     Eventos
+                    </a>
+                </li>
+                <li class="listafinal_item">
+                    <a href="index.html" class="nav-lista_final-link">
+                     Tendencias
+                    </a>
+                </li>
+                <li class="listafinal_item">
+                    <a href="index.html" class="nav-lista_final-link">
+                    Suscribite,
+                     recibi ofertas
+                    </a>
+                </li>
+                
+            </ul><!-- Acá cierra .nav-lista -->
+        
+        </nav><!-- Acá cierra .nav -->
+
+
+    </div>
+    <script src="hamburguesa.js"></script>
+</body>
+</html>

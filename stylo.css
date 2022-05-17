@@ -1,0 +1,157 @@
+:root{
+    box-sizing: border-box;
+     
+}
+.cabecera{
+    
+    background-image: url("cartel.jpg");
+    
+    background-size: cover
+    ;padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+
+.logo{
+    
+    max-height: 2px;
+    margin-left: 330px;
+    mask-position: 100rem;
+}
+.contenido{
+
+
+    
+    background-image: url(chica.jpg);
+background-size: cover;
+background-attachment:local;
+}  
+.nav-form{ 
+    text-align: end;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+h1{
+color: rgb(29, 97, 180); text-align: center;
+font-size: 5.43rem;
+font-family: 'Franklin Gothic Medium',
+ 'Arial Narrow', Arial, sans-serif;
+}
+ h2{
+     color:rgb(244, 248, 10);
+     text-align: center;
+     font-size: 2.5rem;
+ }
+h3{
+    font-size: 2rem;
+    text-align: justify;
+    color:white;
+    width: 80vh;
+    padding-top: 1%;
+    }   
+.nav-lista{
+    padding-left: 3.6%;
+    display:block;
+list-style: none;
+display: flex;
+font-size: 2rem;  
+padding-bottom: 2%;
+padding-top: 3%;
+margin: 5% auto;
+gap:10px;
+border-block-start-style: initial;
+}
+.nav-lista_item-link{
+    border: 5px solid yellow;
+    border-style:groove;
+align-items: center;
+    padding: 20px;
+text-decoration: none;
+color:yellow
+}
+
+
+.botonerafinal{
+    background-image: url("cartel.jpg");
+    background-size: cover;
+    ;padding-top: 30px;
+    padding-bottom: 30px;
+    gap:0px
+}
+.listafinal{
+    list-style: none;
+    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-right: 25px;
+    margin-left: -7PX;       
+}
+.nav-lista_final-link{
+    padding-block: 50px;
+    text-decoration:solid;
+    font-size: 1.9rem;
+display:block;
+border: 5px solid black;
+text-align: center;
+padding-left: 0%;
+padding-right: 0%; 
+margin-bottom: 0%;   
+color: black;
+}
+a:hover {
+    background-color: red;
+    text-decoration: underline;
+}
+
+
+.boton{
+    display: none;
+    padding: 8px;
+}
+@media (max-width:767px){
+    /*y lo aparecemos en celulares, pantallas
+    mas chicas*/
+    .boton{display: block;}
+    .nav-lista{
+            /*ocultamos el menu en el mobile*/
+        display: none;
+        width: 90%;
+    }
+    .nav-lista_item {
+        border-bottom: 1px solid beige;
+    }
+}
+/*creamos una clase que muestre el menu y la aplicaremos
+desde javascript cuando se le de click al boton*/
+.mostrar{display:block;
+}
+
+
+
+
+
+
+.boton1{
+    display: none;
+    padding: 8px;
+}
+
+@media (max-width:767px){
+    /*y lo aparecemos en celulares, pantallas
+    mas chicas*/
+    .boton1{display: block;}
+
+.listafinal{
+    /*ocultamos el menu en el mobile*/
+display: none;
+width: 90%;
+}
+.nav-lista_final-link {
+border-bottom: 1px solid beige;
+
+}
+.mostrar1{display: block;}}
+
+/*ver la desplegacion del menu hamburguesa*/
