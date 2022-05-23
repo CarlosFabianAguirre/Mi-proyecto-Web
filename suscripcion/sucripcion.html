@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suscripcion diseñomodel</title>
+    <link rel="stylesheet" href="suscripcion.css"
+</head>
+<body>
+    <h1>Suscripcion</h1>
+
+    <br>
+    <a href="/index.html"> Ir a la home </a>
+    
+    <form action="enviar.js">
+        <label>
+            Nombre:
+            <input type="text" maxlength="30" required>
+        </label><br>
+
+        <label>
+            Email:
+            <input type="email">
+        </label><br>
+
+        <label>
+            Contraseña:
+            <input type="password">
+        </label><br>   
+    
+        <label>
+            <input type="checkbox" required checked>
+            Acepto condiciones
+        </label>
+    
+
+        <br><br>
+        <!-- Estos no llevan label ya que el mensaje aparece dentro del botón con el atributo value -->
+        <input type="submit" value="Registrarme">
+        <input type="reset" value="Borrar">
+    </form>
+
+
+    
+</body>
+</html>

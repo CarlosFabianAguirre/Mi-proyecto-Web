@@ -13,11 +13,12 @@ console.log("hola mundo");
 boton.addEventListener("click",()=>{
     //todod de aca para abajo todo lo que va a suceder cuando se le de click al boton
     console.log("hicistes click");
-    nav.classList.toggle("mostrar");
+    perro.classList.toggle("mostrar");
 });
+
 
 boton1.addEventListener("click",()=>{
     //todod de aca para abajo todo lo que va a suceder cuando se le de click al boton
     console.log("hicistes click");
-    listafinal.classList.toggle("mostrar1");
+    gato.classList.toggle("mostrar");
 });
